@@ -1,0 +1,16 @@
+{
+    "tasks": [
+        {
+            "group": "build",
+            "isBackground": true,
+            "label": "npm run watch",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$tsc-watch",
+            "script": "watch",
+            "type": "npm"
+        }
+    ],
+    "version": "2.0.0"
+}
